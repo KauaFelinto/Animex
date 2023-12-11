@@ -4,13 +4,15 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/header/header.component";
 import { CarrousselComponent } from "./carroussel/carroussel.component";
 import { CarrousselModule } from './carroussel/carroussel.module';
+import { LastedComponent } from "./components/lasted/lasted.component";
+import { MostPopularComponent } from "./components/most-popular/most-popular.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, HeaderComponent, CarrousselComponent, CarrousselModule]
+    imports: [CommonModule, RouterOutlet, HeaderComponent, CarrousselComponent, CarrousselModule, LastedComponent, MostPopularComponent]
 })
 export class AppComponent {
   title = 'website';
