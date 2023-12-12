@@ -49,7 +49,7 @@ export class CarrousselComponent implements OnInit{
   }
 
   onNextClick(): void {
-    if(this.selectedindex === this.images.length + 1){
+    if(this.selectedindex === this.images.length - 1){
       this.selectedindex = 0;
     } else{
       this.selectedindex++;

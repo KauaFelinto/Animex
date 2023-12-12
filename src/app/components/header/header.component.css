@@ -2,15 +2,16 @@
     width: 100%;
     height: 80px;
     display: flex;
+    justify-content: space-between;
     background-color: black;
 }
 
 .header > ul {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 20px;
     margin: 30px;
-    margin-left: 60%;
+    margin-left: 3%;
 }
 
 .header > ul > li > a{
@@ -25,7 +26,7 @@
 }
 .title{
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 .title > h2{
     font-size: 2.5rem;
@@ -33,4 +34,14 @@
 }
 span{
     color: red;
+}
+
+#search{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
 }

@@ -6,13 +6,21 @@ import { CarrousselComponent } from "./carroussel/carroussel.component";
 import { CarrousselModule } from './carroussel/carroussel.module';
 import { LastedComponent } from "./components/lasted/lasted.component";
 import { MostPopularComponent } from "./components/most-popular/most-popular.component";
+import { CategoriasComponent } from './components/categorias/categorias.component';
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, HeaderComponent, CarrousselComponent, CarrousselModule, LastedComponent, MostPopularComponent]
+    imports: [CommonModule, 
+              RouterOutlet, 
+              HeaderComponent, 
+              CarrousselComponent, 
+              CarrousselModule, 
+              LastedComponent, 
+              MostPopularComponent, 
+              CategoriasComponent]
 })
 export class AppComponent {
   title = 'website';

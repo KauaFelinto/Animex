@@ -3,14 +3,18 @@
     margin: auto;
     text-align: center;
     width: 700px;
-    margin-top: 90px;
+    margin-top: 50px;
     border-radius: 15px;
-    box-shadow: 0 6px 12px #dce1c1
 }
 
 .carroussel-container img{
     display: none;
     border-radius: 15px;
+    transition: .3s;
+}
+.carroussel-container img:hover{
+    scale: 1.05;
+    transition: .3s;
 }
 
 .carroussel-container img.image-active{
