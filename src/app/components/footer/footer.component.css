@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    background-color: #070707;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.footer > p{
+    margin-top: 15px;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+}
+.topicos > ul > li{
+    list-style: none;
+
+}
+.topicos > ul > li > a{
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+}
