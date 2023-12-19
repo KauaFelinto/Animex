@@ -1,11 +1,13 @@
 import { Component, Input } from '@angular/core';
+import { EpisodioComponent } from "../episodio/episodio.component";
+import { AnimeCardComponent } from "../anime-card/anime-card.component";
 
 @Component({
-  selector: 'app-anime-page',
-  standalone: true,
-  imports: [],
-  templateUrl: './anime-page.component.html',
-  styleUrl: './anime-page.component.css'
+    selector: 'app-anime-page',
+    standalone: true,
+    templateUrl: './anime-page.component.html',
+    styleUrl: './anime-page.component.css',
+    imports: [EpisodioComponent, AnimeCardComponent]
 })
 export class AnimePageComponent {
 

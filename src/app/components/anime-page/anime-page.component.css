@@ -1,64 +1,15 @@
 /*principal*/
 .section-ep{
     display: flex;
-    flex-direction: column;
 }
-
-/*anime information*/
-.anime{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    margin: 55px;
-    align-items: center;
-}
-
-.anime h2{
-    font-size: 2rem;
-}
-.anime p{
-    text-align: center;
-}
-
-#animeCover{
-    width: 240px;
-}
-
 /*lista de episodios*/
 
 .episodios{
-    width: 60%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 55px;
     margin-left: 250px;
-    border: 2px solid #000;
-}
-
-#episodio{
-    width: 150px;
-}
-
-.episodios ul > li > a{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    transition: .3s;
-}
-.episodios ul > li > a:hover{
-    background-color: rgb(35, 35, 35);
-    border: 1.5px solid #000;
-    scale: 1.02;
-    transition: .3s;
-}
-
-.episodios ul > li{
-    display: flex;
-    
+    background-color: rgb(30, 30, 30);
 }

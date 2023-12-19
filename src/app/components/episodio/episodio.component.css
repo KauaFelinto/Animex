@@ -1,0 +1,27 @@
+ul > li > a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #000;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+ul > li > a:hover{
+    background-color: rgb(35, 35, 35);
+    border: 1.5px solid #000;
+    scale: 1.02;
+    transition: .3s;
+}
+
+ul > li {
+    list-style: none;
+
+}
+
+#episodio{
+    width: 150px;
+}
